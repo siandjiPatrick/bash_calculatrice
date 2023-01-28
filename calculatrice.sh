@@ -63,8 +63,9 @@ do
 		     exit 0;;
 
 		'4') soustraction
-		     state='1';;	
-		*) echo -e "!!! veillez refaire votre choix !!!\nl obtiont entree ne fais pas parti de la liste des Options/n";;
+		     state='1'
+			 exit 0;;	
+		*) echo -e '!!! veillez refaire votre choix !!!\nl obtiont entree ne fais pas parti de la liste des Options \n';;
 	esac
 done
 
