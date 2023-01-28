@@ -47,7 +47,7 @@ while [ $state='0' ]
 do 
 	echo -n "votre choix: "
 	read -n 1  user_choice # avec le parametre -s on ne donne pas l opportunite a l utilisateur de voir ce qu il a tape
-	echo  '\n'
+	echo -e '\n'
 
 	case $user_choice in
 		'1') multiplication
